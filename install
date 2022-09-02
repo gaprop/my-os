@@ -181,6 +181,4 @@ mkdir $HOME/Vdeo
 echo "-----------------------------------------------------------"
 echo "Things you should remember"
 echo "-----------------------------------------------------------"
-echo "- Intall plugins in nvim with: :PlugInstall"
-echo "- Setup ssh with github"
-echo "- Change the dotfiles repo to use ssh instead"
+echo "Read: things_to_remember.md"

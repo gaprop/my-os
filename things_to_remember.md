@@ -1,0 +1,3 @@
+- Intall plugins in nvim with: :PlugInstall
+- Setup ssh with github
+- Change the dotfiles repo to use ssh instead
