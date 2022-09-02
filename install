@@ -9,8 +9,12 @@ echo "Server = https://artixlinux.qontinuum.space/artixlinux/universe/os/\$arch"
 echo "Server = https://mirror1.cl.netactuate.com/artix/universe/\$arch" | sudo tee -a  /etc/pacman.conf
 echo "Server = https://ftp.crifo.org/artix-universe/" | sudo tee -a  /etc/pacman.conf
 
+sudo pacman -Sy
+
 sudo pacman -S artix-archlinux-support
 sudo pacman-key --populate archlinux
+
+sudo mv /etc/pacman.d/
 
 echo "" | sudo tee -a  /etc/pacman.conf
 echo "# Arch" | sudo tee -a  /etc/pacman.conf

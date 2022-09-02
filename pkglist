@@ -44,8 +44,8 @@ feh
 libnotify
 zathura-pdf-poppler
 maim
-textlive-most
-textlive-fontsextra
+texlive-most
+texlive-fontsextra
 biber
 zip
 unzip
