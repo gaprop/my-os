@@ -164,6 +164,10 @@ mkdir -p "$HOME"/.cache/zsh
 mkdir -p "$HOME"/.config/git
 mv "$HOME"/.gitconfig "$HOME"/.config/git/config
 
+rm "$HOME"/.bash*
+rm "$HOME"/.viminfo
+rm "$HOME"/.zshenv
+
 # echo "-----------------------------------------------------------"
 # echo "Remeber to set up ssh, there are things you have to manually"
 # echo "-----------------------------------------------------------"
