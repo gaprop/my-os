@@ -22,6 +22,7 @@ gimp
 htop
 mpd
 mpd-openrc
+mpc
 mpv
 ncmpcpp
 yt-dlp
@@ -52,3 +53,4 @@ zip
 unzip
 gdb
 nmap
+sxiv

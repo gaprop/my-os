@@ -143,6 +143,7 @@ echo "-----------------------------------------------------------"
 
 sudo rc-update add alsasound
 sudo rc-update add bluetoothd
+mpd # FIXME: This needs to be tested
 
 echo "-----------------------------------------------------------"
 echo "Cleaning up ~/"
