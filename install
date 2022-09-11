@@ -169,6 +169,8 @@ rm "$HOME"/.bash*
 rm "$HOME"/.viminfo
 rm "$HOME"/.zshenv
 
+mkdir "$HOME"/.config/ghc
+
 # echo "-----------------------------------------------------------"
 # echo "Remeber to set up ssh, there are things you have to manually"
 # echo "-----------------------------------------------------------"
