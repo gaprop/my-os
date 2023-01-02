@@ -38,11 +38,10 @@ ttf-font-awesome
 ttf-fira-code
 xclip
 python
-python2
 python-pip
 fzf
 ueberzug
-feh
+xwallpaper
 libnotify
 zathura-pdf-poppler
 maim
@@ -54,3 +53,4 @@ unzip
 gdb
 nmap
 sxiv
+ttf-terminus-nerd
