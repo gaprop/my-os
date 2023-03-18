@@ -145,6 +145,21 @@ sudo rc-update add alsasound
 sudo rc-update add bluetoothd
 mpd # FIXME: This needs to be tested
 
+
+# echo "-----------------------------------------------------------"
+# echo "Remeber to set up ssh, there are things you have to manually"
+# echo "-----------------------------------------------------------"
+echo "-----------------------------------------------------------"
+echo "Creating basic directories"
+echo "-----------------------------------------------------------"
+
+mkdir $HOME/Documents
+mkdir $HOME/Books
+mkdir $HOME/Downloads
+mkdir $HOME/Music
+mkdir $HOME/Pictures
+mkdir $HOME/Vdeo
+
 echo "-----------------------------------------------------------"
 echo "Cleaning up ~/"
 echo "-----------------------------------------------------------"
@@ -171,21 +186,8 @@ rm "$HOME"/.zshenv
 
 mkdir "$HOME"/.config/ghc
 
-# echo "-----------------------------------------------------------"
-# echo "Remeber to set up ssh, there are things you have to manually"
-# echo "-----------------------------------------------------------"
-echo "-----------------------------------------------------------"
-echo "Creating basic directories"
-echo "-----------------------------------------------------------"
-
-mkdir $HOME/Documents
-mkdir $HOME/Books
-mkdir $HOME/Downloads
-mkdir $HOME/Music
-mkdir $HOME/Pictures
-mkdir $HOME/Vdeo
-
 echo "-----------------------------------------------------------"
 echo "Things you should remember"
 echo "-----------------------------------------------------------"
+
 echo "Read: things_to_remember.md"
