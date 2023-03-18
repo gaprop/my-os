@@ -1,4 +1,9 @@
 - Intall plugins in nvim with: :PlugInstall
 - Setup ssh with github
-- Change the dotfiles repo to use ssh instead
+- Change the dotfiles repo to use ssh instead via: `config remote set-url origin git@github.com/gaprop/dotfiles.git`
 - Add a graphics driver
+- For brave
+    - Install vimium
+    - Set search engine
+    - Remove new page crab
+    - Change to dark mode
